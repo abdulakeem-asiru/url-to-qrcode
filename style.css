@@ -78,10 +78,16 @@
             color: #fff;
             font-size: 18px;
             font-weight: 500;
-            width: 120px;
+            width: 150px;
             height: 55px;
             padding: 15px;
             font-family: "Open Sans";
             }
-    
+}
+.qrcode-holder{
+    margin: 50px 0px;
+    height: 300px;
+    width: 300px;
+    background: #ceceec;
+    border-radius: 50%;
 }
