@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +9,10 @@
   body {
     height: 100vh;
     width: 100%;
-    background: url(resources/qa-bg.jpg);
+    background: url(resources/qa-bg.jpg) #030617;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family:  "Open Sans", sans-serif ;
   }
 
   .author-info {
@@ -23,8 +26,62 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap : 30px;
     justify-content: center;
     align-items: center;
-    color : #fff;
+    color : #fff; 
+}
+.form-container{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #194ff1 solid 3px;
+    padding: 10px;
+    height: auto;
+    width: 600px;
+    border-radius: 20px;
+}
+.form-container button{
+    background-color: #194ff1;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: medium;
+    font-weight: 500;
+    width: 120px;
+    padding: 15px;
+}
+.form-container input{
+    background-color: transparent;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding-left: 10px ;
+    outline: none;
+    width: 400px;
+    
+}
+
+.form-container input::placeholder{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-group{
+    display: flex;
+    gap: 20px;
+        button{
+            background-color: #194ff1;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            width: 120px;
+            height: 55px;
+            padding: 15px;
+            font-family: "Open Sans";
+            }
     
 }
